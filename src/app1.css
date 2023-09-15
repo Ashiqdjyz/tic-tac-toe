@@ -1,0 +1,74 @@
+
+.rtside{
+    width:92%;
+}
+
+h2{
+    padding:20px;
+    color:aqua
+}
+
+.logo{
+    padding:auto;
+}
+
+.gamecontainer{
+    display: flex;
+    background-image: url("D:\CS files\React.js\TicTacToe-reactjs\tictactoe\assets\3949076.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: 10;
+    height: 726px;
+    
+}
+
+.square-container{
+    width: 100px;
+    height: 100px;
+    color:black;
+    font-size: 40px;
+    font-weight: 800;
+    background-color: #fff;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: blue;
+    box-shadow: 10px 10px 30px rgb(49, 99, 217);
+}
+
+.board-row{
+    display:flex;
+    gap:2px;
+}
+
+.board{
+    padding-left: 20px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.resetbtn{
+    padding:10px;
+    margin-left:20px;
+    background-color:#fff;
+    font-size: large;
+    font-weight: 500;
+    color: black;
+}
+.resetbtn:hover{
+    padding:10px;
+    margin-left:20px;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+
+body{
+    margin:0px;
+}
+
+
+
+
